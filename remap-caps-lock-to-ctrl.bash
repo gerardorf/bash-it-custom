@@ -3,7 +3,9 @@
 # remap caps lock to control
 #
 
-setxkbmap -option "caps:ctrl_modifier"
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+	setxkbmap -option "caps:ctrl_modifier"
 
-xcape -e 'Caps_Lock=Escape'
-xcape -e 'Control_L=Escape'
+	xcape -e 'Caps_Lock=Escape'
+	xcape -e 'Control_L=Escape'
+fi
