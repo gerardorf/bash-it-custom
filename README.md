@@ -13,5 +13,5 @@ $ git clone https://github.com/gerardorf/bash-it-custom ~/.bash-it-custom
 2. Source custom commands location in your .bashrc or .bash_profile.
 ```
 # Path to bash it configuration
-export BASH_IT_CUSTOM="~/.bash-it-custom"
+export BASH_IT_CUSTOM=~/.bash-it-custom
 ```
