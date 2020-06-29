@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #
 # select node version
-
-nvm use 10
+if [ -x "$(command -v nvm)" ]; then
+  nvm use 10
+fi
