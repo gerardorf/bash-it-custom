@@ -5,6 +5,6 @@
 
 function mySQLWorkbench() {
   if [[ "$OSTYPE" == "darwin"* ]]; then
-    open -na "MySQLWorkbench.app" --args "$@"
+    open -na "MySQLWorkbench.app" "$@"
   fi
 }
