@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#
+# select java version
+if [ -f "$HOME/.sdkman/bin/sdkman-init.sh" ]; then
+  source "$HOME/.sdkman/bin/sdkman-init.sh"
+fi
